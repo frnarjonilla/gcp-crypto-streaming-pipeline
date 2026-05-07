@@ -29,4 +29,4 @@ El flujo de datos se diseñó de la siguiente manera:
 * Proyecto en desarrollo
 ---
 Autor: [Francisco arjonilla](https://github.com/frnarjonilla)
-[Linkedin](www.linkedin.com/in/francisco-arjonilla)
+##[Linkedin](https://www.linkedin.com/in/francisco-arjonilla)
