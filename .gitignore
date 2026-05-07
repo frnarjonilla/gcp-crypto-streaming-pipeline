@@ -1,0 +1,48 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.venv
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# === Google Cloud Platform (SEGURIDAD) ===
+# NUNCA subas tus llaves JSON de Service Accounts
+*.json
+.gcp/
+credentials/
+# Ignorar archivos de configuración local de la CLI de Google
+.config/gcloud/
+
+# === dbt ===
+# dbt genera archivos temporales y logs que no deben ir al repo
+target/
+dbt_packages/
+logs/
+dbt_modules/
+
+# === Herramientas de edición ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# === Terraform (si lo usas más adelante) ===
+.terraform/
+*.tfstate
+*.tfstate.backup
