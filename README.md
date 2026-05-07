@@ -28,4 +28,5 @@ El flujo de datos se diseñó de la siguiente manera:
 ---
 * Proyecto en desarrollo
 ---
-Autor: [Francisco Narjonilla](https://github.com/frnarjonilla)
+Autor: [Francisco arjonilla](https://github.com/frnarjonilla)
+[Linkedin](www.linkedin.com/in/francisco-arjonilla)
