@@ -1,0 +1,16 @@
+
+target/
+dbt_packages/
+logs/
+# Llaves de seguridad (¡Muy importante!)
+*.json
+
+# Archivos de dbt
+dbt_crypto/dbt_packages/
+dbt_crypto/logs/
+dbt_crypto/target/
+dbt_crypto/dbt_modules/
+
+# Entornos virtuales de Python
+venv/
+.env

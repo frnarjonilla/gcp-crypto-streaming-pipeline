@@ -1,0 +1,9 @@
+version: 2
+models:
+  - name: stg_crypto_prices
+    columns:
+      - name: btc_price_usd
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0

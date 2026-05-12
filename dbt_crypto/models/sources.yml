@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: crypto_raw
+    database: gcp-crypto-pipeline  # ID del proyecto de Google
+    dataset: crypto_data
+    tables:
+      - name: raw_prices
