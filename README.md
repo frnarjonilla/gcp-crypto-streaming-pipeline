@@ -20,8 +20,8 @@ El flujo de datos se diseñó de la siguiente manera:
 
 ## 📈 Roadmap del Proyecto
 - [X] Fase 1: Configuración de entorno y Cloud Function de ingesta.
-- [ ] Fase 2: Configuración de Pub/Sub y triggers.
-- [ ] Fase 3: Pipeline de Dataflow para streaming a BigQuery.
+- [X] Fase 2: Configuración de Pub/Sub y triggers.
+- [X] Fase 3: Pipeline de Dataflow para streaming a BigQuery.
 - [ ] Fase 4: Modelado de datos con dbt.
 - [ ] Fase 5: Dashboard final en Looker Studio.
 
