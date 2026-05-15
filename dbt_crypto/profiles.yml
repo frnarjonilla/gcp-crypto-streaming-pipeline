@@ -1,0 +1,11 @@
+dbt_crypto:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: gcp-crypto-pipeline
+      dataset: crypto_data # Tu dataset de BigQuery donde dbt crea las tablas
+      threads: 1
+      timeout_seconds: 300
+      location: europe-southwest1 # Tu región de BigQuery
